@@ -160,7 +160,7 @@ const checkCpf = () => { //checar cpf
     }
 }
 
-enviar.addEventListener("click", (event) => {
+enviar.addEventListener("submit", (event) => {
     
     event.preventDefault();
 
