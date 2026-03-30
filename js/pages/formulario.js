@@ -128,7 +128,7 @@ idade.addEventListener("input", (event) =>{ //idade
 })
 
 const checkIdade = () => { //checar idade
-    if(idade.value > 18){
+    if(idade.value >= 18){
         return true
     }else{
         return false
@@ -194,7 +194,7 @@ enviar.addEventListener("submit", (event) => {
         return "CPF inválido!"
     }
     
-    console.log("Botão deu certo!")
+    alert("Formulário Enviado")
 
     
 })
